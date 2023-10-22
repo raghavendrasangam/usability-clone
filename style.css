@@ -204,6 +204,10 @@ margin-bottom: 1.25rem;
     text-align: center;
 }
 
+.features-card img{
+    width: 3.75rem;
+}
+
 /* big-feature-section */
 
 .big-feature-section{
@@ -221,4 +225,100 @@ margin-bottom: 1.25rem;
 .feature-desc{
     flex-direction: column;
     align-items: flex-start;
+}
+
+/* examples-header */
+.examples-header {
+    flex-direction: column;
+    gap: 1.25rem;
+}
+
+.examples-area{
+    justify-content: space-between;
+    margin-block: 1.875rem;
+}
+
+.examples-card{
+    width: 23%;
+    position: relative;
+    min-height: 18.75rem;
+    background: black;
+    background: linear-gradient(rgb(0, 0, 0, 0.1),rgb(0, 0, 0, 0.8)) , url(./assets/asset\ 37.jpeg);
+    transition: 0.2s ease-out;
+}
+
+
+.examples-card:nth-child(2) {
+    background: linear-gradient(rgb(0, 0, 0, 0.1),rgb(0, 0, 0, 0.8)) , url(./assets/asset\ 36.jpeg);
+    background-size: cover;
+}
+
+.examples-card:nth-child(3) {
+    background: linear-gradient(rgb(0, 0, 0, 0.1),rgb(0, 0, 0, 0.8)) , url(./assets/asset\ 38.jpeg);
+    background-size: cover;
+}
+
+
+.examples-card:nth-child(4) {
+    background: linear-gradient(rgb(0, 0, 0, 0.1),rgb(0, 0, 0, 0.8)) , url(./assets/asset\ 39.jpeg);
+    background-size: cover;
+}
+
+.examples-card:hover {
+    box-shadow: 0 0 0.625rem #575656;
+}
+
+.card-text{
+    position: absolute;
+    bottom: 1.25rem;
+    left: 1.25rem;
+    right: 1.25rem;
+    color: white;
+}
+
+/* cta-section */
+
+.cta-section-container{
+    flex-direction: column;
+    gap: 1.875rem;
+    color: white;
+}
+
+.cta-section{
+    padding: 7.5rem var(--padding-inline-section) 5rem;
+    background: #183b54;
+}
+
+.cta-section-container p {
+    color: white;
+    margin: 1.25rem;
+}
+
+/* footer */
+
+footer{
+    padding: 5rem;
+    background-color: #ebf2fa;
+}
+
+.link-column{
+    flex-direction: column;
+    align-items:flex-start;
+    gap: 1.25rem;
+}
+
+.footer-container{
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+/* subfooter */
+.subfooter{
+    background-color: #b9cde4;
+    padding: var(--padding-inline-section);
+}
+
+.subfooter-container{
+    justify-content: center;
+    gap: 1.875rem;
 }
