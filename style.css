@@ -106,7 +106,7 @@ ul {
 /* top banner */
 
 .top-banner{
- background-image: url(/assets/a32.png);
+ background-image: url(./assets/a32.png);
  background-size: 18.75rem;
  background-color: #4fb3d4;
 }
