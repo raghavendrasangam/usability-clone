@@ -1,16 +1,6 @@
-var arr = [1, 2,3,5]
+const togglebtn = document.getElementById('nav-toggle');
+const navLinks = document.getElementById('nav-links');
 
-
-
-var newArr = arr.map((item, i ) => {
-
-console.log(item + 'index' + i)
-
-return item + i
-
+togglebtn.addEventListener('click', ()=>{
+    navLinks.classList.toggle('active')
 })
-
-
-
-console.log(newArr)
-
